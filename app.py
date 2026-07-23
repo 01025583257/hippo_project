@@ -105,9 +105,3 @@ st.subheader("🧬 Genetic Optimization System")
 if st.button("🚀 Execute Optimization Pipeline", type="primary"):
     with st.spinner("Processing population topologies..."):
         st.markdown("<br>", unsafe_allow_html=True)
-        r1, r2 = st.columns(2)
-        with r1:
-            st.metric(label="🎯 Model Target Accuracy", value="85.71%")
-        with r2:
-            st.write("💻 Optimal Pipeline Evaluated:")
-            st.code("Pipeline(steps=[('classifier', RandomForestClassifier(random_state=42))])")
