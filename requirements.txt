@@ -2,4 +2,4 @@ streamlit
 numpy
 nibabel
 matplotlib
-opencv-python 
+opencv-python -headless
